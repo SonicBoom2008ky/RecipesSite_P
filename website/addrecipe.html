@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <title>New Recipe</title>
+    <link rel="stylesheet" href="addrecipe.css">
+</head>
+
+<body><iframe src="header.html" style="height:58.88px;width:100%;border:none;"></iframe>
+    <div style="display: flex;">
+        <iframe src="left_menu.html"
+            style="width:115px; display: block; border:none; height: calc(100vh - 68.88px);display: block; margin: 5px;"></iframe>
+        <div style="padding: 5px;">
+            <div>
+                Recipe name : <input id="RecipeNameInput">
+            </div>
+            <div>
+                Image Source: <input id="ImageSorce">
+            </div>
+            <div>
+                Ingridients : (Cup Size)<select id="cupSize" class="">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="1/2">1/2</option>
+                    <option value="1/3">1/3</option>
+                    <option value="1/4">1/4</option>
+                    <option value="1/8">1/8</option>
+                    <option value="1/16">1/16</option>
+                </select>
+                (Ingridient) <input id="IngridientName"> <button id="addButtonIng" style="font-size: 10px;" >ADD</button>
+                <div id="divListIng" class="container"></div>
+            </div>
+            <div>
+                Method : <div><textarea type="text" id="methodTextarea"></textarea></div>
+            </div>
+            <div>
+                <button id="NewRecipeButton">Add A New Recipe</button>
+            </div>
+        </div>
+        <div style="padding: 10px;">
+            <div>
+                Difficulty : <select id="difficultySelection">
+                    <option value=""></option>
+                    <option value="easy">קל</option>
+                    <option value="medium">בינוני</option>
+                    <option value="hard">קשה</option>
+                    <option value="expert">מומחה</option>
+                </select>
+            </div>
+            <div>
+                Time : <input id="timeInput" type="text">
+            </div>
+        </div>
+</body>

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Pac";
+    src: url("fonts/Pacifico-Regular.ttf");
+}
+
+* {
+    font-family: Pac;
+}
+
+.H{
+    font-family: gan;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+  }
+
+iframe {
+    height: auto;
+    /* border: none; */
+}
+
+.plusImg {
+  width: 75%;
+}
+
+.addrecipe{
+  width: 100px;
+  height: 150px;
+  border-radius: 7px;
+  background-color: rgba(220, 220, 220, 0.636);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.left_sty{
+    margin: 0;
+    float: left;
+    height: 100%;
+    background-color: greenyellow;
+    width: 100px;
+} */
